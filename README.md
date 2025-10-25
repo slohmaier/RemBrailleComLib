@@ -43,7 +43,7 @@ Install the receiver on your **host system** where the physical braille display 
 
 **macOS** • **Windows** • **Linux**
 
-### [Mac App Store](https://apps.apple.com/app/rembraillereceiver) • [Microsoft Store](https://www.microsoft.com/store/apps/rembraillereceiver) • [GitHub Releases](https://github.com/slohmaier/RemBrailleReceiver/releases)
+### [Mac App Store](https://apps.apple.com/app/rembraillereceiver) • [Microsoft Store](https://www.microsoft.com/store/apps/rembraillereceiver)
 
 *Coming soon on Mac App Store and Microsoft Store*
 
