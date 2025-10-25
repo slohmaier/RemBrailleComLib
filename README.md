@@ -6,7 +6,7 @@
 
 **Cross-platform braille display connectivity for virtual machines**
 
-[![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2+-blue.svg)](https://www.gnu.org/licenses/gpl-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7+-brightgreen.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/slohmaier/RemBrailleComLib)
 
@@ -397,16 +397,22 @@ python scripts/generate_icons.py
 
 ## 📄 License
 
-This project is licensed under the **GNU General Public License v2.0 or later**.
+This project is licensed under the **MIT License**.
 
 ```
-RemBraille Communication Library
-Copyright (C) 2025 Stefan Lohmaier
+MIT License
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+Copyright (c) 2025 Stefan Lohmaier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 ```
 
 See [LICENSE](LICENSE) for the complete license text.
