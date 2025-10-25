@@ -10,7 +10,7 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-brightgreen.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/slohmaier/RemBrailleComLib)
 
-*Enable NVDA screen reader users in virtual machines to access braille displays connected to their host system through TCP/IP communication.*
+*Enable screen reader users in virtual machines to access braille displays connected to their host system through TCP/IP communication.*
 
 [Quick Start](#quick-start) • [Documentation](#documentation) • [Examples](#examples) • [Contributing](#contributing)
 
@@ -30,6 +30,36 @@ RemBraille bridges the accessibility gap for blind and visually impaired users w
 - 🔄 **Auto-Reconnection**: Robust connection recovery
 - 🖥️ **Cross-Platform**: Windows, macOS, and Linux support
 - 🎯 **VM Optimized**: Designed for virtualized environments
+
+---
+
+## 📥 RemBraille Ecosystem Downloads
+
+### Host Applications (RemBrailleReceiver)
+
+Install the receiver on your **host system** where the physical braille display is connected:
+
+<div align="center">
+
+**macOS** • **Windows** • **Linux**
+
+### [Mac App Store](https://apps.apple.com/app/rembraillereceiver) • [Microsoft Store](https://www.microsoft.com/store/apps/rembraillereceiver) • [GitHub Releases](https://github.com/slohmaier/RemBrailleReceiver/releases)
+
+*Coming soon on Mac App Store and Microsoft Store*
+
+</div>
+
+### Guest Drivers (VM Applications)
+
+Install the appropriate driver **inside your virtual machine**:
+
+#### Windows Guests (NVDA)
+- **RemBraille NVDA Addon**: [GitHub](https://github.com/slohmaier/RemBrailleDriver)
+- For Windows VMs running NVDA screen reader
+
+#### Linux Guests (BRLTTY)
+- **RemBraille BRLTTY Driver**: [GitHub](https://github.com/slohmaier/RemBraille_brltty)
+- For Linux VMs with BRLTTY and screen readers (Orca, etc.)
 
 ---
 
@@ -134,7 +164,8 @@ dependencies: [
 
 ```
 ┌─────────────────────────────────────┐
-│          NVDA Add-on                │
+│   Screen Reader (NVDA/BRLTTY)       │
+│        + RemBraille Driver          │
 ├─────────────────────────────────────┤
 │       RemBraille Library            │
 ├─────────────────────────────────────┤
@@ -142,7 +173,8 @@ dependencies: [
 ├─────────────────────────────────────┤
 │      Virtual Network Layer         │
 ├─────────────────────────────────────┤
-│        Host Braille Display         │
+│   Host: RemBrailleReceiver          │
+│        + Physical Display           │
 └─────────────────────────────────────┘
 ```
 
